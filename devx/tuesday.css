@@ -1,0 +1,35 @@
+h1 {
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .Mobile {
+      display: block;
+    }
+    body{
+      background-color: lightblue;
+    } 
+}
+@media screen and (max-width: 768px) and (min-width: 578px) {
+    .Tablet {
+      display: block;
+    }
+    body{
+      background-color: rgb(49, 75, 73);
+    } 
+}
+@media screen and (max-width: 992px) and (min-width: 769px){
+    .Laptop {
+      display: block;
+    }
+    body{
+      background-color: rgb(218, 247, 114);
+    } 
+}
+@media screen and(min-width: 994px){
+    .Huge {
+      display: block;
+    }
+    body{
+      background-color: rgb(238, 31, 169);
+    } 
+}
